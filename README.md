@@ -1,0 +1,1 @@
+Python package to enable easy conversion of .srt files to .vtt files.
