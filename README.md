@@ -1,3 +1,5 @@
+[![PyPi](https://img.shields.io/pypi/v/srt-to-vtt)](https://pypi.org/project/srt-to-vtt/)
+
 # srt-to-vtt
 
 Python package to enable easy conversion of .srt files to .vtt files.
