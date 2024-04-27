@@ -6,7 +6,7 @@ Python package to enable easy conversion of .srt files to .vtt files.
 
 ## Install
 
-srt-to-vtt is available at https://pypi.org/project/srt-to-vtt/ and you can install the latest version with
+srt-to-vtt is available on [PyPI](https://pypi.org/project/srt-to-vtt/) and you can install the latest version with
 ```
 pip install srt-to-vtt
 ```
@@ -19,8 +19,9 @@ from srt_to_vtt import srt_to_vtt
 path_to_my_srt_file = "example.srt"
 path_to_converted_vtt_file = "output.vtt"
 
-#converts example.srt into output.vtt
+# converts example.srt into output.vtt
 srt_to_vtt(path_to_my_srt_file, path_to_converted_vtt_file)
+
 ```
 
 ## Develop
