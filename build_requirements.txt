@@ -1,5 +1,2 @@
 build
-setuptools
-wheel
-twine
 black

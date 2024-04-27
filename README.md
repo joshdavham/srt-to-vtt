@@ -68,14 +68,6 @@ You may now run any of the tests found in the `tests/` directory.
 
 ### Distribute
 
-Assuming that all the tests are passing, the package is now ready to be released on PyPI.
+Assuming that all the tests are passing, the package is now ready to be released on PyPI!
 
-First, ensure that the files to be uploaded are correct with
-```
-twine check dist/*
-```
-
-Then upload to PyPI with
-```
-twine upload dist/*
-```
+Open a pull request on the main branch and, if approved and merged, the package will be automatically updated on PyPI after the next Release is published on GitHub.
