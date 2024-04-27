@@ -1,4 +1,4 @@
-[![PyPi](https://img.shields.io/pypi/v/srt-to-vtt)](https://pypi.org/project/srt-to-vtt/)
+[![PyPi](https://img.shields.io/pypi/v/srt-to-vtt)](https://pypi.org/project/srt-to-vtt/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # srt-to-vtt
 
@@ -31,17 +31,25 @@ pip install -e .
 ```
 You can now make changes to the package source code found in `srt-to-vtt/srt_to_vtt/` and see them reflected immediately.
 
-## Build, test and distribute
+## Format, build, test and distribute
 
 Before doing anything else, make sure to bump the version number under `[project]` in `pyproject.toml`. Please use [semantic versioning](https://semver.org/).
 
 
-### Build
-First, install the build requirements with
+
+Then, install the build requirements with
 ```
 pip install -r build_requirements.txt
 ```
 
+### Format
+
+This project adheres to the [Black](https://github.com/psf/black) code style. You can automatically refomat your code to Black by executing the following in the root directory of this repo:
+```
+black .
+```
+
+### Build
 Then, to build, run
 ```
 python -m build
