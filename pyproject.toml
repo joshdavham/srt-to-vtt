@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "srt-to-vtt"
-version = "1.2.1"
+version = "1.3.0"
 description = "Python package to enable easy conversion of .srt files to .vtt files."
 readme = "README.md"
 authors = [{ name = "Joshua Hamilton", email = "hamiltonjoshuadavid@gmail.com" }]
