@@ -64,7 +64,10 @@ After building the package, install it with
 pip install dist/srt_to_vtt-#.#.#-py3-none-any.whl
 ```
 
-You may now run any of the tests found in the `tests/` directory.
+You may now run the unit tests by executing the following
+```
+python -m unittest tests/test_srt_to_vtt.py
+```
 
 ### Distribute
 
