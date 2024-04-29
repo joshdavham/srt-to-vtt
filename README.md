@@ -13,6 +13,7 @@ pip install srt-to-vtt
 
 ## Basic usage
 
+### Import as a module within python
 ```python
 from srt_to_vtt import srt_to_vtt
 
@@ -22,6 +23,11 @@ path_to_converted_vtt_file = "output.vtt"
 # converts example.srt into output.vtt
 srt_to_vtt(path_to_my_srt_file, path_to_converted_vtt_file)
 
+```
+
+### Execute from CLI
+```
+stv -i example.srt -o output.vtt
 ```
 
 ## Develop
